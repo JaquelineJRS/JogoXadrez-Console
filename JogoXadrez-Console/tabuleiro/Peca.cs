@@ -13,6 +13,11 @@
             this.tabuleiro = tabuleiro;
             this.cor = cor;
             this.qteMovimentos = 0;
-        }        
+        }
+
+        public void IncrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
     }    
 }
