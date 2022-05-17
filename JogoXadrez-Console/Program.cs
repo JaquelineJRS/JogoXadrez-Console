@@ -24,10 +24,10 @@ namespace JogoXadrez_Console
                         Posicao origem = Tela.LerPosicaoXadrez().toPosicao();
                         partida.ValidarPosicaoDeOrigem(origem);
 
-                        bool[,] posicoesPossiveis = partida.Tab.Peca(origem).MovimentosPossiveis();
+                        bool[,] posicoesPossiveis = partida.tabuleiro.Peca(origem).MovimentosPossiveis();
 
                         Console.Clear();
-                        Tela.ImprimirTabuleiro(partida.Tab, posicoesPossiveis);
+                        Tela.ImprimirTabuleiro(partida.tabuleiro, posicoesPossiveis);
 
                         Console.WriteLine();
                         Console.Write("Destino: ");

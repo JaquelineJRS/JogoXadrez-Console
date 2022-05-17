@@ -11,7 +11,7 @@
             this.Coluna = coluna;
         }
 
-        public void DenifirValores(int linha, int coluna)
+        public void DefinirValores(int linha, int coluna)
         {
             this.Linha = linha;
             this.Coluna = coluna;
